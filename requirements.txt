@@ -1,0 +1,30 @@
+# Data Ingestion & Processing
+datasets>=2.18.0
+huggingface-hub>=0.22.0
+textblob>=0.17.1
+asyncpraw==7.7.1
+
+# LLM Providers
+anthropic>=0.25.0
+google-generativeai>=0.3.0
+mistralai>=0.0.7
+
+# Vector Embeddings
+sentence-transformers>=2.6.0
+
+# Databases
+neo4j>=5.0.0
+weaviate-client>=3.24.0,<4.0
+
+# Text Splitters
+langchain-text-splitters>=0.2.0
+
+# Configuration & Utilities
+python-dotenv>=1.0.0
+tenacity>=8.0.0
+httpx>=0.27.0
+
+# Web Application
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
